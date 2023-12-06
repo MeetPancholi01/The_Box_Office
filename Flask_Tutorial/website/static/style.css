@@ -1,0 +1,179 @@
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+body{
+    background-color: grey;
+    background-image: url("netflix.png");
+    backdrop-filter: blur(5px);
+}
+
+.btn{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.butt{
+    text-align: center;
+    align-items: center;
+}
+
+@media(orientation:portrait){
+    .container{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .footer-link{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+    }
+
+}
+
+@media(orientation:landscape){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        grid-column-gap: 4px;
+    }
+    .footer-link{
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.bottom-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    text-align: center;
+
+}
+
+.bottom-container p{
+    color: white;
+    margin-top: 6px;
+}
+
+
+
+.footer-link:hover{
+  text-decoration: none;
+  color: #3bcc78;
+}
+
+.copyright:hover{
+  color: #3bcc78;
+}
+
+.contact-me{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.card-title{
+    text-align: center;
+    color: crimson;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#t1{
+    width: 18rem;
+}
+
+#t2{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t3{
+    /* height: 18rem; */
+    width: 18rem;
+}
+
+#t4{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t5{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t6{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t7{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t8{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t9{
+    /* height: 18rem; */
+    width: 18rem;
+}
+#t10{
+    /* height: 18rem; */
+    width: 18rem;
+}
+
+.rating{
+    color: beige;
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+
+.rati{
+    text-align: center;
+    background-color: lightskyblue;
+    font-size: small;
+    border-radius: 5px;
+    color: brown;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;  
+    margin-left: 5px;
+
+}
+.rate{
+    text-align: center;
+    align-items: center;
+}
+ 
+
+
+
